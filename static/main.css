@@ -1,0 +1,24 @@
+* {background-color: LightSlateGrey; text-align: center}
+.error {color: red}
+.mainH {}
+.formdiv {}
+.inputbox {}
+a:hover {color: orange}
+a:active {color:lime}
+.np {color: lime; font-size: 40px; font-family: Script}
+div {font-size:20px}
+span {color: mediumblue}
+
+
+
+/*
+<style type="text/css">
+    .error {
+        color: red;
+    }
+    .mainH {text-align: center}
+    .formdiv {color:green}
+    .inputbox {text-align: center}
+    a:hover {color:orange}
+</style>
+*/
