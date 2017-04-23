@@ -69,8 +69,8 @@ class NewPost(Handler):
         if subject and body:
             b = Blog(subject = subject, body = body)
             b.put()
-
-            self.redirect("/blog")
+            post = str(b.key().id())
+            self.redirect("/blog/" + post)
         else:
             error = "We need both a title and art"
             self.render_newpost(subject, body, error)
